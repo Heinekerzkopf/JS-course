@@ -1,0 +1,79 @@
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+//===========================================================================================================================//
+body {
+  font-family: 'Lato', sans-serif;
+  // background: linear-gradient(#ffffff, #ababab);
+  background-color: rgb(247, 237, 223);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: clip;
+  min-height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 50px;
+  color: #000000;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+
+[class*="__container"] {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+section {
+  padding: 45px 0;
+  min-height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+//========================================================================================================================================================
+
+.mainblock {
+  margin-top: 100px;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  gap: 25px;
+}
+
+.block {
+  background-color: green;
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  // margin: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.newClass {
+  background-color: red;
+}
+
+//========================================================================================================================================================
